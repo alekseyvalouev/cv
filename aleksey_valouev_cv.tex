@@ -1,0 +1,136 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 3.0 (December 17, 2022)
+%
+% This template originates from:
+% https://www.LaTeXTemplates.com
+%
+% Author:
+% Vel (vel@latextemplates.com)
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% License:
+% CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[
+	%a4paper, % Uncomment for A4 paper size (default is US letter)
+	11pt, % Default font size, can use 10pt, 11pt or 12pt
+]{resume} % Use the resume class
+
+\usepackage{ebgaramond} % Use the EB Garamond font
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+%------------------------------------------------
+
+\name{Aleksey Valouev} % Your name to appear at the top
+
+% You can use the \address command up to 3 times for 3 different addresses or pieces of contact information
+% Any new lines (\\) you use in the \address commands will be converted to symbols, so each address will appear as a single line.
+
+
+\address{(650)~$\cdot$~561~$\cdot$~5030 \\ valouev@berkeley.edu \\ Palo Alto, CA 94303} % Contact information
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+	
+	\textbf{University of California, Berkeley} \hfill \textit{August 2025 - May 2028} \\ 
+	B.S. in Electrical Engineering \& Computer Science; GPA: 4.0/4.0 \smallskip \\
+	Member, Machine Learning @ Berkeley \\
+	Relevant Coursework: Data Structures \& Algorithms, Computer Architecture, Signal Processing
+	
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Experience}
+
+	\begin{rSubsection}{Berkeley AI Research Lab (BAIR)}{October 2025 - Present}{Researcher}{Berkeley, CA}
+		\item Developing foundation computer vision models for fine-grained object detection in satellite imagery. Using multi-view vision transformers to jointly infer scene geometry and perform object detection.
+		\item Supervised by Dr. Ritwik Gupta in the Darrell Computer Vision Group.
+	\end{rSubsection}
+
+%------------------------------------------------
+
+	\begin{rSubsection}{Machine Learning at Berkeley}{September 2025 - Present}{Machine Learning Engineer}{Berkeley, CA}
+		\item Trained a vision language action (VLA) model to autonomously pilot a lunar lander in an OpenAI gym environment.
+	\end{rSubsection}
+
+%------------------------------------------------
+
+	\begin{rSubsection}{Boston University Computational Imaging Systems Lab}{July 2024 - August 2024}{Research Intern}{Boston, MA}
+		\item Combined 3-D scene representation (NeRF) with Fourier optics to pioneer a versatile and adaptive approach to extended depth microscopy. Developed a lightweight and versatile tool for miniaturized imaging of live rodent brains.
+		\item First-author publication in IEEE (\textcolor{blue}{\href{https://ieeexplore.ieee.org/document/10959478}{https://ieeexplore.ieee.org/document/10959478}}).
+	\end{rSubsection}
+
+%------------------------------------------------
+
+	\begin{rSubsection}{University of Southern California, Marshall School of Business}{May 2022 - June 2024}{Research Assistant}{Los Angeles, CA}
+		\item Aggregated, preprocessed, and analyzed short seller tweets and corporate disclosures to predict short squeeze attacks.
+		\item Performed textual analysis of published papers using NLP techniques. Presented results at the USC CETAFE Conference.
+		\item Acknowledged in a journal publication (\textcolor{blue}{\href{https://dx.doi.org/10.2139/ssrn.3849581}{https://dx.doi.org/10.2139/ssrn.3849581}}).
+	\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	PROJECTS AND LEADERSHIP
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Projects and Leadership}
+
+	\begin{rSubsection}{Machine Learning for Wildfire Prediction}{September 2021 - December 2022}{}{}
+		\item Acquired and processed satellite and sensor data using Geographic Information System (GIS) tools, Pandas, and Numpy.
+		\item Used logistic regression and random forest models with time series data to predict monthly wildfire risk at 5 kilometer resolution.
+	\end{rSubsection}
+
+%------------------------------------------------
+
+	\begin{rSubsection}{AI-Powered Network of Sensors for Real-Time Wildfire Detection}{January 2023 - June 2025}{}{}
+		\item Created a novel Intelligent Wireless Sensing Network (IWSN) for real-time wildfire detection using CV on IoT devices.
+		\item Provisional patent for the IWSN registered with the US Patent Office. Worked on deployment in the Santa Cruz Mountains.
+	\end{rSubsection}
+
+\end{rSection}
+
+\begin{rSection}{Skills and Volunteering}
+
+	\begin{tabular}{@{} >{\bfseries}l @{\hspace{6ex}} l @{}}
+		Technical & Python, Java, PyTorch, Matplotlib, Yahoo Finance API, Stanford Named Entity Recognizer, NLP \\
+		Volunteering & Supervisor at Palo Alto High School robotics summer camp. Outreach with National Geographic. \\
+		Linkedin & \textcolor{blue}{\href{https://www.linkedin.com/in/aleksey-valouev/}{https://www.linkedin.com/in/aleksey-valouev/}}
+	\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Section Name}
+
+	%Section content\ldots
+
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}

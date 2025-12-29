@@ -52,8 +52,8 @@
 \geometry{
 	top=0.6in, % Top margin
 	bottom=0.6in, % Bottom margin
-	left=0.75in, % Left margin
-	right=0.75in, % Right margin
+	left=0.6in, % Left margin
+	right=0.6in, % Right margin
 	%showframe, % Uncomment to show how the type block is set on the page
 }
 
@@ -125,7 +125,7 @@
 	\medskip % Vertical whitespace
 	\hrule % Horizontal rule
 	\begin{list}{}{ % List to indent the entire content of the section
-		\setlength{\leftmargin}{1.5em} % Indent to the left of the list
+		\setlength{\leftmargin}{0.75em} % Indent to the left of the list
 	}
 	\item[] % Empty list item to enable indentation
 }{
