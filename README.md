@@ -1,12 +1,12 @@
 # CV
 
 <p align="center">
-  <a href="template.pdf">
-    <img src="template.png" alt="CV Preview" width="600" style="max-width: 100%;">
+  <a href="aleksey_valouev_cv.pdf">
+    <img src="aleksey_valouev_cv.png" alt="CV Preview" width="600" style="max-width: 100%;">
   </a>
 </p>
 
-[Download PDF](template.pdf)
+[Download PDF](aleksey_valouev_cv.pdf)
 
 ## Usage
 
