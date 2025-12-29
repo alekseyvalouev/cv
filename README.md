@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="template.pdf">
-    <img src="template.png" alt="CV Preview" width="600">
+    <img src="template.png" alt="CV Preview" width="600" style="max-width: 100%;">
   </a>
 </p>
 
